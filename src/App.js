@@ -1,4 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { Link, Route } from 'react-dom-router'
+import { MainMenu, AboutMenu } from './ui/menus'
+//import './stylesheets/pages.scss'
 //import './App.css';
 
 export const Home = () =>
