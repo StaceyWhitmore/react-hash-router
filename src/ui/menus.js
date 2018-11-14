@@ -6,3 +6,5 @@ const selectedStyle = {
   background: "white",
   color: "slategray"
 }
+
+export const MainMenu = () => 
