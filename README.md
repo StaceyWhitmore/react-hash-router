@@ -1,4 +1,4 @@
 Basic React App implementing Hash router
 =======================================
-see [hash-router](https://github.com/ReactTraining/react-router)
-### Just for fun 
+### Basic implementation of hash router in React App
+* see [hash-router](https://github.com/ReactTraining/react-router)
