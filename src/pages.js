@@ -50,6 +50,7 @@ export const Home = () =>
     </PageTemplate>
 
  //include {match} as arg (for routes)
+ //Notice 1st Route has no path prop
   export const About = ({match}) =>
   <PageTemplate>
     <section className="about">
