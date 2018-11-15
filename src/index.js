@@ -20,11 +20,11 @@ render(
         <Redirect from="/history" to="/about/history"/>
         <Redirect from="/" to="/about/services"/>
         <Redirect from="/" to="/about/locations"/>
-        
+
         <Route path="/events" component={Events}/>
         <Route path="/products" component={Products}/>
         <Route path="/contact" component={Contact}/>
-        <Route component+{Page404}/>
+        <Route component={Page404}/>
       </Switch>
     </div>
   </HashRouter>,

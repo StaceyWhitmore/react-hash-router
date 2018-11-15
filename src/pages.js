@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import { Link, Route } from 'react-dom-router'
+//import React, { Component } from 'react';
+import { Link, Route } from 'react-router-dom'
 import { MainMenu, AboutMenu } from './ui/menus'
 //import './stylesheets/pages.scss'
-
-//import './App.css';
 
 const PageTemplate = ({children}) =>
   <div className="page">
