@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom'
 
-import { Home, About, Events, Products, Contact } from './pages'
+import { Home, About, Events, Products, Contact, Page404 } from './pages'
 
 window.React = React
 
@@ -18,8 +18,8 @@ render(
         <Route path="/about" component={About}/>
 
         <Redirect from="/history" to="/about/history"/>
-        <Redirect from="/" to="/about/services"/>
-        <Redirect from="/" to="/about/locations"/>
+        <Redirect from="/services" to="/about/services"/>
+        <Redirect from="/locations" to="/about/locations"/>
 
         <Route path="/events" component={Events}/>
         <Route path="/products" component={Products}/>
